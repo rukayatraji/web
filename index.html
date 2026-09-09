@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abdulkabir Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <h1>abdulkabir Portfolio</h1>
+
+            <button id="menuButton" aria-label="Toggle menu">☰</button>
+
+            <nav id="navMenu">
+                <a href="#">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="about" class="about">
+        <div class="about-text">
+            <h2>About Me</h2>
+
+            <p>
+                my name is abdulkabir. I am learning how to build websites.
+            </p>
+            <p>
+                i love playing game, reading and also creating Website
+            </p> 
+        </div>
+
+        <div class="about-image">
+            <img src="eba.jpg" alt="My Picture">
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>reading</li>
+            <li>Playing game</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+            <div class="project-card">
+                <span class="project-number">1</span>
+                <h3>My First Website</h3>
+                <p>This is my first website built with HTML.</p>
+            </div>
+
+            <div class="project-card">
+                <span class="project-number">2</span>
+                <h3>My First Website</h3>
+                <p>This is my first website built with HTML.</p>
+            </div>
+
+            <div class="project-card">
+                <span class="project-number">3</span>
+                <h3>My First Website</h3>
+                <p>This is my first website built with HTML.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="educations">
+        <h2>My Education</h2>
+
+        <div class="educations">
+            <div class="education-card">
+                <h3>Kellori Nursery & Primary School</h3>
+                <p>A school</p>
+                <p>I learnt how to read, write and calculate.</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Lauren scholar's Secondary School</h3>
+                <p>A school</p>
+                <p>I learnt science, art and commercial studies.</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Startup Bauchi</h3>
+                <p>A computer training camp </p>
+                <p>I am learning on how to code.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>You can contact me through email, or just say hi below.</p>
+
+        <div class="contact-options">
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p>Prefer email? Reach me directly.</p>
+                <a href="mailto:rukayatraji@gmail.com" class="btn btn-accent">
+                    Send me an email
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <h3>Say Hi</h3>
+                <form id="sayHiForm">
+                    <input type="text" id="visitorName" placeholder="Your name" required>
+                    <button type="submit" class="btn btn-primary">Say Hi 👋</button>
+                </form>
+                <p id="formResponse" class="form-response"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2026 abdulkabir</p>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
